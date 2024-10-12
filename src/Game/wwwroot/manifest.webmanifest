@@ -1,6 +1,6 @@
 {
-  "name": "MudBlazor Pages",
-  "short_name": "MudBlazorPages",
+  "name": "Game",
+  "short_name": "Game",
   "id": "./",
   "start_url": "./",
   "display": "standalone",

@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Serialization;
+using Game.Util;
 
-namespace MudBlazorPages;
+namespace Game;
 
 public enum ExampleEnum
 {
@@ -21,7 +22,7 @@ public class AppSettings
 
     /// <summary>
     ///     This property simply demonstrates that non-existent enum values will not cause an exception during deserialization.
-    ///     See <see cref="Util.UnknownEnumConverter"/>
+    ///     See <see cref="UnknownEnumConverter"/>
     /// </summary>
     [JsonPropertyName("nonexistentEnumValue")]
     public ExampleEnum NonexistentEnumValue { get; set; }

@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MudBlazorPages</title>
+    <title>Game</title>
 
     <!-- Adapted from https://stackoverflow.com/a/69769086/8435941 -->
     <script>
         var baseTag = document.createElement("base");
-        var appRoot = "/CHANGEME/";
+        var appRoot = "/game/";
         var path = document.location.pathname;
         baseTag.href = (path.indexOf(appRoot) === 0 || path + "/" === appRoot) ? appRoot : "/";
         document.head.appendChild(baseTag);
@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="MudBlazorPages.styles.css" rel="stylesheet" />
+    <link href="Game.styles.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
